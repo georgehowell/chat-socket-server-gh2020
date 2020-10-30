@@ -1,0 +1,35 @@
+{
+  "name": "awesome-live-chat-server",
+  "version": "0.0.3",
+  "description": "Socket server for wp plugin Awesome Live Chat",
+  "author": {
+    "name": "Kamal Khan",
+    "email": "shout@bhittani.com",
+    "url": "http://bhittani.com"
+  },
+  "homepage": "http://awe5o.me/live-chat-server",
+  "private": true,
+  "dependencies": {
+    "commander": "^2.6.0",
+    "deasync": "^0.1.2",
+    "deferred": "^0.7.1",
+    "fs.extra": "^1.2.1",
+    "graceful-ncp": "0.0.1",
+    "request": "^2.51.0",
+    "socket.io": "^2.3.0",
+    "tar.gz": "^0.1.1",
+    "underscore": "^1.7.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.2.6",
+    "npm": "2.14.12"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.1.2",
+    "node-sass": "^4.14.1",
+    "tar": "^6.0.5"
+  }
+}
